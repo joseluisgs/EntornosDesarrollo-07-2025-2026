@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <!-- Paquetes necesarios para ejecutar tests -->
+    <ItemGroup>
+        <!-- SDK de testing de Microsoft - Proporciona la infraestructura para ejecutar tests -->
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+        
+        <!-- NUnit - Framework de testing con atributos [Test], [TestFixture], [SetUp], etc. -->
+        <PackageReference Include="NUnit" Version="4.2.2" />
+        
+        <!-- NUnit3TestAdapter - Adaptador para que dotnet test pueda ejecutar tests de NUnit -->
+        <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+        
+        <!-- FluentAssertions - Librería de aserciones fluidas ( Should().Be(), Should().Contain() ) -->
+        <PackageReference Include="FluentAssertions" Version="6.12.2" />
+        
+        <!-- coverlet.collector - Herramienta para recoger datos de cobertura de código -->
+        <PackageReference Include="coverlet.collector" Version="6.0.2" />
+
+        <!-- Moq - Librería para crear mocks en tests -->
+        <PackageReference Include="Moq" Version="4.20.72" />
+    </ItemGroup>
+
+    <!-- Referencia al proyecto que queremos testear (TestDobles) -->
+    <!-- Esto permite que los tests puedan usar las clases del proyecto principal -->
+    <ItemGroup>
+        <ProjectReference Include="..\TestDobles\TestDobles.csproj" />
+    </ItemGroup>
+
+</Project>

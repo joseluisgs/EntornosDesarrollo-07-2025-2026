@@ -1,0 +1,10 @@
+17:54:26.844 [ERR] [Logger.Services.Calculadora] Intento de división por cero. Dividendo: 10
+17:54:26.879 [ERR] [] Excepción capturada
+System.DivideByZeroException: No se puede dividir por cero
+   at Logger.Services.Calculadora.Dividir(Decimal dividendo, Decimal divisor) in C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\02-Logger\Logger\Services\Calculadora.cs:line 40
+   at Program.<Main>$(String[] args) in C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\02-Logger\Logger\Program.cs:line 40
+17:54:26.989 [ERR] [Logger.Services.Calculadora] Intento de potencia con exponente negativo. Base: 2, Exponente: -5
+17:54:26.994 [ERR] [] Excepción capturada desde appsettings.json
+System.ArgumentException: El exponente no puede ser negativo (Parameter 'exponente')
+   at Logger.Services.Calculadora.Potencia(Int32 baseNum, Int32 exponente) in C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\02-Logger\Logger\Services\Calculadora.cs:line 55
+   at Program.<Main>$(String[] args) in C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\02-Logger\Logger\Program.cs:line 76
