@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/dotCover/Editor/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\joseluisgs\AppData\Local\JetBrains\Rider2026.1\resharper-host\temp\Rider\vAny\CoverageData\_03-TestUnitarios.376378217\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a4ffb771_002Dacb9_002D4baa_002Db11c_002Dd244aac9e215/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ClaseEjemplo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\03-TestUnitarios\TestUnitarios.Test" Presentation="&amp;lt;TestUnitarios.Test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c9ed783d_002D24d9_002D43d5_002D8591_002D07e856cbadd2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculadoraAssertsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\joseluisgs\Projects\Entornos\UD07\soluciones\03-TestUnitarios\TestUnitarios.Test" Presentation="&amp;lt;TestUnitarios.Test&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
